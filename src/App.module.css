@@ -1,0 +1,169 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentInput {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: -1.625rem;
+}
+
+.contentInput input {
+  width: 39.875rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  outline: none;
+}
+
+.contentInput button {
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--gray-100);
+}
+
+.contentInput button svg {
+  color: var(--gray-100);
+  font-size: 1rem;
+}
+
+.containerTask {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.contentTaksItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contentTaksItem p {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.contentTaksItem span {
+  width: 1.5625rem;
+  height: 1.1875rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 999px;
+  text-align: center;
+}
+
+.contentTaskDoing {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contentTaskDoing p {
+  color: var(--purple);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.contentTaskDoing span {
+  width: 1.5625rem;
+  height: 1.1875rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 999px;
+  text-align: center;
+}
+
+.contentTask {
+  width: 100%;
+  min-height: 15.25rem;
+  border-top: 2px solid #313131;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentTaskItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contentTaskItem svg {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.paragraphText {
+  font-weight: bold;
+  color: var(--gray-300);
+  font-size: 1rem;
+}
+
+.TaskActive {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.CardTask {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 0.75rem;
+}
+
+.CardTask input[type="radio"] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.CardTask p {
+  flex: 1;
+  margin: 0;
+}
+
+.CardTask .taskCompleted {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.CardTask button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.CardTask button svg {
+  color: var(--gray-300);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.CardTask button svg:hover {
+  color: var(--danger);
+}
